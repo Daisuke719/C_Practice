@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(void)
+{
+  float a;
+  double b;
+  long double c;
+
+  printf("float a    ：");    scanf("%f",&a);
+  printf("double b   ：");    scanf("%lf",&b);
+  printf("long double：");    scanf("%Lf",&c);
+
+  printf("a = %f",a);
+  printf("b = %f",b);
+  printf("c = %Lf",c);
+  
+  return 0;
+}

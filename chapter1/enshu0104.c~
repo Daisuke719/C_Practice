@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(void)
+{
+  double n = 5;
+  printf("nの値は%fです。\n",n);
+ return 0;
+}

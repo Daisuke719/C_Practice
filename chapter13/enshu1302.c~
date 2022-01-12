@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void)
+{
+  char filename[256];
+  FILE *fp;
+
+  printf("消したいファイル名を入力してください：");
+  scanf("%s",filename);
+
+  fp = fopen(filename, "w");
+  
+  if(fp == NULL)
+    printf("\aファイル%sは存在しません。\n",filename);
+  else{
+    printf("\aファイル%sは存在します。\n",filename);
+    fclose(fp);
+  }
+  return 0;
+}

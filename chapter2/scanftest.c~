@@ -1,0 +1,15 @@
+/* scanfに関するテストの為のソースファイル */
+
+#include<stdio.h>
+int main(void)
+{
+
+  int a,b;
+  
+  puts("整数二つをカンマで区切って入力してください。");
+
+  printf("整数a,b:"); scanf("%d,%d",&a,&b);
+  printf("%d,%d\n",a,b);
+
+  return 0;
+}

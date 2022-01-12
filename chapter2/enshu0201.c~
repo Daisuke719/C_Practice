@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(void)
+{
+  int no1,no2;
+
+  puts("二つの整数値を入力してください。");
+  printf("整数x,y:"); scanf("%d%d",&no1,&no2);
+
+  printf("xはyの%d%%です。\n",no1*100/no2);
+
+  return 0;
+}

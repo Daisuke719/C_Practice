@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(void)
+{
+  int month;
+
+  printf("何月ですか：");
+  scanf("%d",&month);
+
+  switch(month){
+
+  case 3||4||5 : printf("%d月は春です。\n",month);
+    break;
+
+  default : break;
+  }
+  return 0;
+}
